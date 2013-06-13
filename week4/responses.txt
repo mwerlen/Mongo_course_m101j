@@ -1,0 +1,9 @@
+HW1 : 
+    - db.products.find({'brand':"GE"}).sort({price:1})
+    - db.products.find({$and:[{price:{$gt:30}},{price:{$lt:50}}]}).sort({brand:1})
+HW2 : 
+    - This query performs a collection scan.
+    - The query uses an index to determine the order in which to return result documents.
+    - The query visits 46462 documents.
+HW3 : nffhe89hfkdjsbapajsfda89jks
+HW4 : 15820
