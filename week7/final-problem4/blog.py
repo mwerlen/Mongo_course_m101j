@@ -236,7 +236,13 @@ def post_comment_like():
     # it all looks good. increment the ordinal (no error checking, but whatever)
     try:
         # XXX Final exam problem 4. Work here.
-
+        key = "comments."+comment_ordinal+".num_likes"
+        print "-------------"
+        print key
+        print "posts.update({'permalink':'"+permalink+"'},{'$inc':{'"+key+"' : 1}})"
+        print "-------------"
+        posts.update({'permalink':permalink},{'$inc':{key : 1}})
+        
         print "Incrementing the like counter"
 
     except:
