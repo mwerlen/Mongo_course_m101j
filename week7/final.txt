@@ -12,4 +12,6 @@ Question 6 :
     - Set w=0, j=0 on writes
     - Remove all indexes from the collection
 Question 7 : 45044
-Question 8 :
+Question 8 : 1
+Question 9 : 
+Question 10 : 
