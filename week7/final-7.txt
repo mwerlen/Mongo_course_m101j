@@ -1,0 +1,14 @@
+use final;
+db.albums.ensureIndex({'images':1});
+db.images.find().forEach(
+    function (image) {
+        var id = image._id;
+        count = db.albums.find({'images': id}).count();
+        if (count == 0) {
+            db.images.remove({'_id': id});
+            //print("Image "+id+" removed"); 
+        }
+    });
+if (db.images.find().count() == 90017){
+    print(db.images.find({'tags':'sunrises'}).count());
+}

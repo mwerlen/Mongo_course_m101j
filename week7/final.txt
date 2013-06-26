@@ -4,6 +4,12 @@ Question 2 : susan.mara@enron.com to richard.shapiro@enron.com
 Question 3 : 897h6723ghf25gd87gh28
 Question 4 : cf. code : 89jlkfdsjflks34j0d
 Question 5 : 
-Question 6 :
-Question 7 :
+    - a_1_b_1
+    - a_1_c_1
+    - c_1
+    - a_1_b_1_c_-1
+Question 6 : 
+    - Set w=0, j=0 on writes
+    - Remove all indexes from the collection
+Question 7 : 45044
 Question 8 :
